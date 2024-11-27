@@ -1,9 +1,26 @@
 header{
     display: flex;
+    position: fixed;
+    flex-direction: column;
     width: 100%;
     color: white;
-    position: fixed;
-    background-image: url('../../images/Homepage-APR-Promo-Hero-Desktop-v3.avif');
+    z-index: 10;
+}
+
+.rowFirst{
+    display: flex;
+    background-color: #F4F4F4;
+    height: 52px;
+    scroll-behavior: smooth;
+    color: black;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.rowSecond{
+    z-index: 10;
+    color: white;
 }
 
 .header-container{
@@ -42,6 +59,13 @@ header{
     margin-right: 10px;
 }
 
+.bannerImage{
+    position: relative;
+    height: 100vh;
+}
+.imageBackground{
+    object-fit: cover;
+}
 main{
     flex-grow: 1;
     min-height: 100vh;
