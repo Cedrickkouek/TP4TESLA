@@ -1,0 +1,52 @@
+header{
+    display: flex;
+    width: 100%;
+    color: white;
+    position: fixed;
+    background-image: url('../../images/Homepage-APR-Promo-Hero-Desktop-v3.avif');
+}
+
+.header-container{
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    padding: 0 32px; 
+}
+
+.navCenter{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.navCenter ul{
+    display: flex;
+}
+
+.navCenter ul ol{
+    cursor: pointer;
+}
+
+.navLeft svg{
+    width: 120px;
+    height: 24px;
+    cursor: pointer;
+}
+.rightNav{
+    display: flex;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+.rightNav svg{
+    margin-right: 10px;
+}
+
+main{
+    flex-grow: 1;
+    min-height: 100vh;
+    background-color: pink;
+}
+footer{
+    background-color: blue;
+}
