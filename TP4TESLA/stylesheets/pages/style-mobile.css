@@ -1,0 +1,23 @@
+@media (max-width: 599px) and (orientation: portrait) {
+    .imageBackground {
+        content: url('../../images/Homepage-APR-Promo-Hero-Mobile-v3.avif');
+    }
+}
+
+@media (max-height: 599px) and (orientation: landscape) {
+    .imageBackground {
+        content: url('../../images/Homepage-APR-Promo-Hero-Mobile-v3.avif');
+    }
+}
+
+@media (min-width: 600px) and (orientation: portrait) {
+    .imageBackground {
+        content: url('../../images/Homepage-APR-Promo-Hero-Tablet-v3.avif');
+    }
+}
+
+@media (min-width: 900px) and (orientation: landscape) {
+    .imageBackground {
+        content: url('../../images/Homepage-APR-Promo-Hero-Desktop-v3.avif');
+    }
+}
